@@ -1,0 +1,1 @@
+<div class="text-center fw-bold fs-4 mt-3">@lang('site.no-result-found')</div>
