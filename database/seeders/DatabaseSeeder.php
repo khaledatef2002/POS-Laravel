@@ -16,14 +16,5 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         $this->call(RolesPermissionsSeeder::class);
-
-        $user = User::create([
-            'first_name' => 'Khaled',
-            'last_name' => 'Atef',
-            'email' => 'khaledatef312@gmail.com',
-            'password' => bcrypt('Kh159753At@'),
-        ]);
-
-        $user->syncRoles(['owner']);
     }
 }
